@@ -1,2 +1,3 @@
-# proyecto-ecommerce
-Desarrollo de un E-Commerce para el curso electivo de Comercio Electrónico.
+# E-Commerce Electrónica
+
+Este proyecto consiste en crear una tienda de venta de productos de electrónica.
