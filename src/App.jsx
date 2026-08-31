@@ -1,5 +1,6 @@
 import { HashRouter, Route, Routes, Link } from "react-router-dom";
 import Home from './Home'
+import CatalogPage from './pages/CatalogPage'
 import './App.css'
 
 function App() {
@@ -9,13 +10,13 @@ function App() {
       <nav>
         <ul>
             <li>
-                <Link to="/home">Inicio</Link>
+                <Link to="/search">Inicio</Link>
             </li>
         </ul>
       </nav>
       <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/search" element={<CatalogPage />} />
       </Routes>
     </HashRouter>
   )
