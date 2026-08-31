@@ -1,6 +1,7 @@
 import { HashRouter, Route, Routes, Link } from "react-router-dom";
 import Home from './Home'
 import CatalogPage from './pages/CatalogPage'
+import ProductDetail from './pages/ProductDetail'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<CatalogPage />} />
+          <Route path="/producto/:id" element={<ProductDetail />} />
       </Routes>
     </HashRouter>
   )

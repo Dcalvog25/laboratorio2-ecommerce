@@ -1,0 +1,25 @@
+.pi-product-detail-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 30px;
+    align-items: start;
+}
+
+.pi-product-image-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pi-product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pi-product-info-detail {
+    width: 100%;
+}
