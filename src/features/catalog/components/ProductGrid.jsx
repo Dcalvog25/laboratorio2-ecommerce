@@ -4,11 +4,12 @@ import "../styles/ProductGrid.css";
 import noResultsImage from "../../../assets/electroTriste.png";
 
 export default function ProductGrid() {
-    const { results } = useInstantSearch();
+    const { results, status } = useInstantSearch();
+    const cargando = status === "loading" || status === "stalled";
 
     return (
         <div className="product-grid">
-            {results?.nbHits === 0 ? (
+            {!results?.__isArtificial && results?.nbHits === 0 ? (
                 <>
                     <p className="no-results-found">No se encontraron productos.</p>
                     <img className="no-results-image" src={noResultsImage} alt="No results" />

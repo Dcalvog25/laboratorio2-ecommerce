@@ -1,10 +1,12 @@
 import "../styles/ProductCard.css";
 import { ShoppingCart } from "lucide-react";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function ProductCard({ hit }) {
   
     const [tieneDescuento, setTieneDescuento] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         if (hit.b2c.discount_percentage > 0) {
@@ -19,11 +21,14 @@ export default function ProductCard({ hit }) {
             src={hit.image_url}
             alt={hit.title}
             className="product-img"
+            onClick={() => navigate(`/producto/${hit.objectID}`)}
         />
         </div>
 
         <div className="product-info">
-        <h3 className="product-title">{hit.title}</h3>
+        <h3 className="product-title" onClick={() => navigate(`/producto/${hit.objectID}`)}>
+            {hit.title}
+        </h3>
 
         <p className="product-model">MOD: {hit.model}</p>
 
