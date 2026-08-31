@@ -1,0 +1,98 @@
+.search-bar {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto 0;
+}
+
+.search-bar .ais-SearchBox,
+.search-bar .ais-SearchBox-form {
+    width: 100%;
+    position: relative;
+}
+
+.search-bar .ais-SearchBox-form {
+    height: 46px;
+}
+
+.search-bar .ais-SearchBox-input {
+    width: 100%;
+    height: 46px;
+    padding: 0 80px 0 18px;
+    
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    background: #fff;
+    color: #111827;
+
+    font-family: var(--sans);
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+
+    transition: border-color .2s, box-shadow .2s;
+}
+
+.search-bar .ais-SearchBox-input:focus {
+    border-color: #345499;
+    box-shadow: 0 0 0 3px rgba(52, 84, 153, .12);
+}
+
+.search-bar .ais-SearchBox-input::placeholder {
+    color: #9ca3af;
+}
+
+.search-bar .ais-SearchBox-submit,
+.search-bar .ais-SearchBox-reset {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    cursor: pointer;
+}
+
+.search-bar .ais-SearchBox-submit {
+    right: 6px;
+    width: 34px;
+    height: 34px;
+    border-radius: 7px;
+    background: #345499;
+    color: white;
+}
+
+.search-bar .ais-SearchBox-reset {
+    right: 45px;
+    width: 25px;
+    height: 25px;
+    background: transparent;
+}
+
+.search-bar .ais-SearchBox-submitIcon {
+    width: 18px;
+    height: 18px;
+    fill: white;
+}
+
+
+.search-bar .ais-SearchBox-reset {
+    background: transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+}
+
+.search-bar .ais-SearchBox-input:not(:placeholder-shown) ~ .ais-SearchBox-reset {
+    opacity: 1;
+    visibility: visible;
+    transition: 
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+}

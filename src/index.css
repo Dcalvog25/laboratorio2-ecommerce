@@ -32,11 +32,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
+    --text: #000000;
+    --text-h: #717171;
+    --bg: #ffffff;
     --border: #2e303a;
-    --code-bg: #1f2028;
+    --code-bg: #bbbbbe;
     --accent: #c084fc;
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
@@ -54,12 +54,23 @@ body {
   margin: 0;
 }
 
+/* esto es para que la barra de scroll esté fija  */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
 #root {
-  width: 1126px;
+  width: calc(100% - 40px);
+  margin: 0 20px;
   max-width: 100%;
-  margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
