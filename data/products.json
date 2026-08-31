@@ -17,7 +17,7 @@
     "in_stock": true,
     "stock_quantity": 36,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/92457bf2b5977fff7efe99bd6badebc6/image/20794f649/placa-de-desarrollo.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126278/steren-products/ELEC001.jpg",
     "facets": {
       "board_type": "Placa de desarrollo",
       "processor": "ATmega328P",
@@ -84,7 +84,7 @@
     "in_stock": true,
     "stock_quantity": 25,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/1945123be/placa-de-desarrollo-nano.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126281/steren-products/ELEC002.jpg",
     "facets": {
       "board_type": "Placa de desarrollo",
       "processor": "ATmega328P",
@@ -285,7 +285,7 @@
     "in_stock": true,
     "stock_quantity": 7,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/22754a220/raspberry-pi-modelo-pico.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126284/steren-products/ELEC005.jpg",
     "facets": {
       "board_type": "Microcontrolador",
       "processor": "RP2040",
@@ -2362,7 +2362,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/20764b39a/placa-de-desarrollo-nodemcu-esp8266.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126286/steren-products/ELEC036.jpg",
     "facets": {
       "board_type": "Placa IoT",
       "processor": "ESP8266EX",
@@ -3568,7 +3568,7 @@
     "in_stock": true,
     "stock_quantity": 29,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/215665022/kit-de-soporte-y-modulo-de-energia-para-microbit.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126288/steren-products/ELEC054.jpg",
     "facets": {
       "board_type": "Accesorio de placa",
       "processor": "No aplica",
@@ -3635,7 +3635,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/21468f764/tarjeta-de-expansion-compatible-con-microbit.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126290/steren-products/ELEC055.jpg",
     "facets": {
       "board_type": "Tarjeta de expansión",
       "processor": "No aplica",
@@ -3903,7 +3903,7 @@
     "in_stock": true,
     "stock_quantity": 28,
     "rating": 4.4,
-    "image_url": "https://estore.st.com/media/catalog/product/p/f/pf267026_m_3.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133222/ELEC059_el0kgh.jpg",
     "facets": {
       "board_type": "Placa de desarrollo",
       "processor": "STM32G474RE",
@@ -4506,7 +4506,7 @@
     "in_stock": true,
     "stock_quantity": 38,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/201451cfc/programador-de-microcontroladores-pics.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126292/steren-products/ELEC068.jpg",
     "facets": {
       "board_type": "Programador",
       "processor": "PIC",
@@ -4640,7 +4640,7 @@
     "in_stock": true,
     "stock_quantity": 6,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/18148a7d9/microcontrolador-enhanced-flash-de-40-pines-frecuencia-max-20-mhz.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126294/steren-products/ELEC070.jpg",
     "facets": {
       "board_type": "Microcontrolador DIP",
       "processor": "PIC16F877A",
@@ -4707,7 +4707,7 @@
     "in_stock": true,
     "stock_quantity": 23,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/21160b131/microcontrolador-atmega-328p-pu.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126296/steren-products/ELEC071.jpg",
     "facets": {
       "board_type": "Microcontrolador DIP",
       "processor": "ATmega328P",
@@ -5042,7 +5042,7 @@
     "in_stock": true,
     "stock_quantity": 24,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/22754a220/raspberry-pi-modelo-pico.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126298/steren-products/ELEC076.jpg",
     "facets": {
       "board_type": "Placa de robótica",
       "processor": "RP2040",
@@ -5444,7 +5444,7 @@
     "in_stock": true,
     "stock_quantity": 30,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/20290b831/interruptor-magnetico.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126301/steren-products/ELEC082.jpg",
     "facets": {
       "module_type": "Sensor magnético",
       "measurement_or_function": "Apertura y cierre",
@@ -5645,7 +5645,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/1945948ab/sensor-ultrasonico.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126304/steren-products/ELEC085.jpg",
     "facets": {
       "module_type": "Sensor de distancia",
       "measurement_or_function": "Distancia ultrasónica",
@@ -5779,7 +5779,7 @@
     "in_stock": true,
     "stock_quantity": 11,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/2142975a2/sensor-de-flujo-de-agua-para-placa-de-desarrollo-y-microcontroladores.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126307/steren-products/ELEC087.jpg",
     "facets": {
       "module_type": "Sensor de flujo",
       "measurement_or_function": "Caudal de agua",
@@ -5846,7 +5846,7 @@
     "in_stock": true,
     "stock_quantity": 40,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/216213368/sensor-con-acelerometro-y-giroscopio.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126310/steren-products/ELEC088.jpg",
     "facets": {
       "module_type": "IMU",
       "measurement_or_function": "Aceleración y velocidad angular",
@@ -5913,7 +5913,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/1946055a7/sensor-de-temperatura-y-humedad.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126312/steren-products/ELEC089.jpg",
     "facets": {
       "module_type": "Sensor ambiental",
       "measurement_or_function": "Temperatura y humedad",
@@ -6181,7 +6181,7 @@
     "in_stock": true,
     "stock_quantity": 14,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20292a55c/sensor-seguidor-de-linea.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126314/steren-products/ELEC093.jpg",
     "facets": {
       "module_type": "Sensor óptico",
       "measurement_or_function": "Contraste de superficie",
@@ -6449,7 +6449,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/203591073/sensor-de-flama.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126317/steren-products/ELEC097.jpg",
     "facets": {
       "module_type": "Sensor óptico",
       "measurement_or_function": "Radiación de llama",
@@ -6516,7 +6516,7 @@
     "in_stock": true,
     "stock_quantity": 25,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/20360388e/sensor-de-golpe-o-vibracion.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126320/steren-products/ELEC098.jpg",
     "facets": {
       "module_type": "Sensor mecánico",
       "measurement_or_function": "Golpe y vibración",
@@ -6650,7 +6650,7 @@
     "in_stock": true,
     "stock_quantity": 33,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/194636e90/modulo-bluetooth.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126322/steren-products/ELEC100.jpg",
     "facets": {
       "module_type": "Comunicación inalámbrica",
       "measurement_or_function": "Enlace Bluetooth serial",
@@ -6784,7 +6784,7 @@
     "in_stock": true,
     "stock_quantity": 22,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/21184a3d9/modulo-rf-433mhz-transmisor-y-receptor-para-placas-de-desarrollo-y-microcontroladores.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126325/steren-products/ELEC102.jpg",
     "facets": {
       "module_type": "Comunicación RF",
       "measurement_or_function": "Enlace de radio 433 MHz",
@@ -7119,7 +7119,7 @@
     "in_stock": true,
     "stock_quantity": 15,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/203042fdb/joystick-shield.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126328/steren-products/ELEC107.jpg",
     "facets": {
       "module_type": "Módulo de entrada",
       "measurement_or_function": "Joystick y botones",
@@ -7253,7 +7253,7 @@
     "in_stock": true,
     "stock_quantity": 16,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/20309291f/modulo-de-red-ethernet.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126332/steren-products/ELEC109.jpg",
     "facets": {
       "module_type": "Comunicación cableada",
       "measurement_or_function": "Ethernet",
@@ -7320,7 +7320,7 @@
     "in_stock": true,
     "stock_quantity": 29,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/20298bc45/modulo-usb.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126334/steren-products/ELEC110.jpg",
     "facets": {
       "module_type": "Interfaz USB",
       "measurement_or_function": "Comunicación USB",
@@ -7655,7 +7655,7 @@
     "in_stock": true,
     "stock_quantity": 20,
     "rating": 4.3,
-    "image_url": "https://www.mouser.co.cr/images/boschsensortec/lrg/BME280_t.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133222/ELEC115_irhwgw.jpg",
     "facets": {
       "module_type": "Sensor ambiental",
       "measurement_or_function": "Temperatura, humedad y presión",
@@ -7722,7 +7722,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.5,
-    "image_url": "https://co.mouser.com/images/boschsensortec/lrg/BMP280_t.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133222/ELEC116_c62fja.jpg",
     "facets": {
       "module_type": "Sensor barométrico",
       "measurement_or_function": "Presión y temperatura",
@@ -7789,7 +7789,7 @@
     "in_stock": true,
     "stock_quantity": 35,
     "rating": 4.5,
-    "image_url": "https://www.mouser.co.cr/images/invensense/lrg/MPU-6050_SPL.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133222/ELEC117_ul4h0g.jpg",
     "facets": {
       "module_type": "IMU",
       "measurement_or_function": "Aceleración y velocidad angular",
@@ -8660,7 +8660,7 @@
     "in_stock": true,
     "stock_quantity": 13,
     "rating": 4.5,
-    "image_url": "https://www.analog.com/en/_/media/analog/en/reference-design-maxim-images/maxrefdes117/maxrefdes117fig00.png?rev=4dda717b3df443cf8779a9cbed4197b9",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133222/ELEC130_pnrm3v.jpg",
     "facets": {
       "module_type": "Sensor biométrico",
       "measurement_or_function": "Frecuencia cardiaca y SpO2",
@@ -10536,7 +10536,7 @@
     "in_stock": true,
     "stock_quantity": 14,
     "rating": 4.3,
-    "image_url": "https://www.mouser.co.cr/images/boschsensortec/images/262-BMP390_DSL.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133223/ELEC158_jojitt.jpg",
     "facets": {
       "module_type": "Sensor barométrico",
       "measurement_or_function": "Presión y temperatura",
@@ -10737,7 +10737,7 @@
     "in_stock": true,
     "stock_quantity": 24,
     "rating": 4.1,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19886d74f/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-1-ohm.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126337/steren-products/ELEC161.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "1 Ω",
@@ -10804,7 +10804,7 @@
     "in_stock": true,
     "stock_quantity": 14,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/199281beb/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-2-2-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126339/steren-products/ELEC162.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "2.2 Ω",
@@ -10871,7 +10871,7 @@
     "in_stock": true,
     "stock_quantity": 29,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19893769c/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-4-7-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126341/steren-products/ELEC163.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "4.7 Ω",
@@ -10938,7 +10938,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/1993107b7/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-5-6-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126344/steren-products/ELEC164.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "5.6 Ω",
@@ -11005,7 +11005,7 @@
     "in_stock": true,
     "stock_quantity": 4,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/198885651/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-10-mohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126346/steren-products/ELEC165.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "10 Ω",
@@ -11072,7 +11072,7 @@
     "in_stock": true,
     "stock_quantity": 11,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19938d836/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-22-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126348/steren-products/ELEC166.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "22 Ω",
@@ -11139,7 +11139,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/199352b30/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-33-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126350/steren-products/ELEC167.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "33 Ω",
@@ -11206,7 +11206,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/1994088df/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-47-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126352/steren-products/ELEC168.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "47 Ω",
@@ -11273,7 +11273,7 @@
     "in_stock": true,
     "stock_quantity": 23,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/199323f6a/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-68-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126354/steren-products/ELEC169.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "68 Ω",
@@ -11340,7 +11340,7 @@
     "in_stock": true,
     "stock_quantity": 38,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19904f526/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-82-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126357/steren-products/ELEC170.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "82 Ω",
@@ -11407,7 +11407,7 @@
     "in_stock": true,
     "stock_quantity": 10,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/465d1208dfb9d38a81aba4899187c666/image/16664b7ca/desoldador-chico-de-succion-de-aire.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126358/steren-products/ELEC171.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "100 Ω",
@@ -11474,7 +11474,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/199292a9c/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-12-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126361/steren-products/ELEC172.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "120 Ω",
@@ -11541,7 +11541,7 @@
     "in_stock": true,
     "stock_quantity": 11,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/199194c4c/resistencia-de-carbon-de-1-watt-al-5-de-tolerancia-de-150-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126363/steren-products/ELEC173.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "150 Ω",
@@ -11608,7 +11608,7 @@
     "in_stock": true,
     "stock_quantity": 35,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/465d1208dfb9d38a81aba4899187c666/image/18699fcc0/pasta-para-soldar-en-lata-con-60-gramos.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126366/steren-products/ELEC174.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "180 Ω",
@@ -11675,7 +11675,7 @@
     "in_stock": true,
     "stock_quantity": 4,
     "rating": 4.1,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/465d1208dfb9d38a81aba4899187c666/image/166511739/cautin-tipo-lapiz-de-30-watts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126368/steren-products/ELEC175.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "220 Ω",
@@ -11742,7 +11742,7 @@
     "in_stock": true,
     "stock_quantity": 21,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/465d1208dfb9d38a81aba4899187c666/image/18700be07/tubo-de-17-gramos-de-soldadura-con-aleacion-esta-o-plomo-60-40.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126370/steren-products/ELEC176.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "270 Ω",
@@ -11809,7 +11809,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/198821380/resistencia-de-carbon-de-1-watt-al-5-de-tolerancia-de-330-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126372/steren-products/ELEC177.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "330 Ω",
@@ -11876,7 +11876,7 @@
     "in_stock": true,
     "stock_quantity": 7,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/465d1208dfb9d38a81aba4899187c666/image/18703c341/rollo-de-450-gramos-de-soldadura-con-aleacion-esta-o-plomo-60-40.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126374/steren-products/ELEC178.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "390 Ω",
@@ -12010,7 +12010,7 @@
     "in_stock": true,
     "stock_quantity": 30,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19867e8cd/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-560-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126376/steren-products/ELEC180.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "560 Ω",
@@ -12144,7 +12144,7 @@
     "in_stock": true,
     "stock_quantity": 35,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/1993086fd/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-820-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126378/steren-products/ELEC182.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "820 Ω",
@@ -12211,7 +12211,7 @@
     "in_stock": true,
     "stock_quantity": 35,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/198721758/resistencia-de-carbon-de-1-watt-al-5-de-tolerancia-de-1-ohm.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126380/steren-products/ELEC183.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "1 kΩ",
@@ -12613,7 +12613,7 @@
     "in_stock": true,
     "stock_quantity": 31,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/1988736ac/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-3-3-kohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126382/steren-products/ELEC189.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "3.3 kΩ",
@@ -12680,7 +12680,7 @@
     "in_stock": true,
     "stock_quantity": 24,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/199081725/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-3-9-kohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126384/steren-products/ELEC190.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "3.9 kΩ",
@@ -12814,7 +12814,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/1993107b7/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-5-6-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126386/steren-products/ELEC192.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "5.6 kΩ",
@@ -12948,7 +12948,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/198585464/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-8-2-kohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126388/steren-products/ELEC194.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "8.2 kΩ",
@@ -13149,7 +13149,7 @@
     "in_stock": true,
     "stock_quantity": 37,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19866de39/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-15-kohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126391/steren-products/ELEC197.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "15 kΩ",
@@ -13216,7 +13216,7 @@
     "in_stock": true,
     "stock_quantity": 27,
     "rating": 4.4,
-    "image_url": "http://www.electronica-max.com/productos/m/1379660556-42.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133224/ELEC198_shvorl.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "18 kΩ",
@@ -13417,7 +13417,7 @@
     "in_stock": true,
     "stock_quantity": 6,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/1988736ac/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-3-3-kohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126393/steren-products/ELEC201.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "33 kΩ",
@@ -13484,7 +13484,7 @@
     "in_stock": true,
     "stock_quantity": 23,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/199081725/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-3-9-kohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126396/steren-products/ELEC202.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "39 kΩ",
@@ -13551,7 +13551,7 @@
     "in_stock": true,
     "stock_quantity": 10,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/1994088df/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-47-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126398/steren-products/ELEC203.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "47 kΩ",
@@ -13752,7 +13752,7 @@
     "in_stock": true,
     "stock_quantity": 33,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/19904f526/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-82-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126400/steren-products/ELEC206.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "82 kΩ",
@@ -13886,7 +13886,7 @@
     "in_stock": true,
     "stock_quantity": 10,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/198914137/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-120-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126403/steren-products/ELEC208.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "120 kΩ",
@@ -14087,7 +14087,7 @@
     "in_stock": true,
     "stock_quantity": 11,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/197361006/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-220-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126405/steren-products/ELEC211.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "220 kΩ",
@@ -14221,7 +14221,7 @@
     "in_stock": true,
     "stock_quantity": 28,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/199292a9c/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-12-ohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126408/steren-products/ELEC213.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "330 kΩ",
@@ -14422,7 +14422,7 @@
     "in_stock": true,
     "stock_quantity": 19,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/199090514/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-560-kohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126410/steren-products/ELEC216.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "560 kΩ",
@@ -14623,7 +14623,7 @@
     "in_stock": true,
     "stock_quantity": 28,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/198721758/resistencia-de-carbon-de-1-watt-al-5-de-tolerancia-de-1-ohm.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126412/steren-products/ELEC219.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "1 MΩ",
@@ -14690,7 +14690,7 @@
     "in_stock": true,
     "stock_quantity": 24,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/198885651/resistencia-de-carbon-de-1-2-watt-al-5-de-tolerancia-de-10-mohms.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126414/steren-products/ELEC220.jpg",
     "facets": {
       "component_type": "Resistencia de carbón",
       "value": "10 MΩ",
@@ -14757,7 +14757,7 @@
     "in_stock": true,
     "stock_quantity": 10,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/17036fbce/condensador-electrolitico-radial-de-100-uf-micro-faradios-a-63-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126416/steren-products/ELEC221.jpg",
     "facets": {
       "component_type": "Condensador electrolítico",
       "value": "1 µF",
@@ -14824,7 +14824,7 @@
     "in_stock": true,
     "stock_quantity": 33,
     "rating": 4.5,
-    "image_url": "https://www.electronicaplugandplay.com/images/logos/logo-og-electronica.png",
+    "image_url": "https://www.dbuelectronics.cr/903-large_default/capacitor-22uf-x-50v.jpg",
     "facets": {
       "component_type": "Condensador electrolítico",
       "value": "2.2 µF",
@@ -14891,7 +14891,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/17081875a/condensador-electrolitico-radial-de-470-uf-micro-faradios-a-50-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126418/steren-products/ELEC223.jpg",
     "facets": {
       "component_type": "Condensador electrolítico",
       "value": "4.7 µF",
@@ -14958,7 +14958,7 @@
     "in_stock": true,
     "stock_quantity": 30,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/1703166ae/condensador-electrolitico-radial-de-10-uf-micro-faradios-a-63-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126421/steren-products/ELEC224.jpg",
     "facets": {
       "component_type": "Condensador electrolítico",
       "value": "10 µF",
@@ -15025,7 +15025,7 @@
     "in_stock": true,
     "stock_quantity": 20,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/17026b236/condensador-electrolitico-radial-de-10-uf-micro-faradios-a-100-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126423/steren-products/ELEC225.jpg",
     "facets": {
       "component_type": "Condensador electrolítico",
       "value": "10 µF",
@@ -15762,7 +15762,7 @@
     "in_stock": true,
     "stock_quantity": 40,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/170389035/condensador-electrolitico-radial-de-1000-uf-micro-faradios-a-16-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126425/steren-products/ELEC236.jpg",
     "facets": {
       "component_type": "Condensador electrolítico",
       "value": "1000 µF",
@@ -16097,7 +16097,7 @@
     "in_stock": true,
     "stock_quantity": 15,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/1658036b9/condensador-ceramico-de-disco-de-22-pf-pico-faradios-a-500-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126429/steren-products/ELEC241.jpg",
     "facets": {
       "component_type": "Condensador cerámico",
       "value": "22 pF",
@@ -16499,7 +16499,7 @@
     "in_stock": true,
     "stock_quantity": 32,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/16564daa8/condensador-ceramico-de-disco-de-0-0047-uf-micro-faradios-a-500-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126431/steren-products/ELEC247.jpg",
     "facets": {
       "component_type": "Condensador cerámico",
       "value": "1 µF",
@@ -16767,7 +16767,7 @@
     "in_stock": true,
     "stock_quantity": 38,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/18067877c/condensador-de-poliester-metalizado-de-0-47-uf-micro-faradios-a-250-volts.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126433/steren-products/ELEC251.jpg",
     "facets": {
       "component_type": "Condensador de poliéster",
       "value": "0.01 µF",
@@ -16901,7 +16901,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/wysiwyg/menu/banner-mas-categorias_new.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788135294/ELEC253_fhtdui.jpg",
     "facets": {
       "component_type": "Condensador de poliéster",
       "value": "0.047 µF",
@@ -18777,7 +18777,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/179665b53/diodo-rectificador-de-proposito-general-6-amperes-800-v.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126438/steren-products/ELEC281.jpg",
     "facets": {
       "component_type": "Diodo",
       "function": "Rectificación",
@@ -18911,7 +18911,7 @@
     "in_stock": true,
     "stock_quantity": 36,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19206db58/puente-rectificador-de-200-volts-a-2-amperes.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126440/steren-products/ELEC283.jpg",
     "facets": {
       "component_type": "Puente rectificador",
       "function": "Rectificación de onda completa",
@@ -20519,7 +20519,7 @@
     "in_stock": true,
     "stock_quantity": 27,
     "rating": 4.2,
-    "image_url": "https://www.mouser.co.cr/images/texasinstruments/lrg/ITP_TI_PDIP-8_P_t.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133224/ELEC307_iqwnva.png",
     "facets": {
       "component_type": "Amplificador operacional",
       "function": "Amplificación analógica dual",
@@ -20586,7 +20586,7 @@
     "in_stock": true,
     "stock_quantity": 21,
     "rating": 4.6,
-    "image_url": "https://www.mouser.co.cr/images/texasinstruments/lrg/ITP_TI_PDIP-14_N_t.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133225/ELEC308_g5ohrs.png",
     "facets": {
       "component_type": "Amplificador operacional",
       "function": "Amplificación analógica cuádruple",
@@ -22127,7 +22127,7 @@
     "in_stock": true,
     "stock_quantity": 10,
     "rating": 4.6,
-    "image_url": "https://www.mouser.co.cr/images/texasinstruments/lrg/ITP_TI_PDIP-8_P_t.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133226/ELEC331_jvyfjh.jpg",
     "facets": {
       "component_type": "Amplificador operacional",
       "function": "Audio y señal de bajo ruido",
@@ -23467,7 +23467,7 @@
     "in_stock": true,
     "stock_quantity": 9,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19579fc9f/motor-reductor-metalico-con-eje-tipo-d-6-vcc.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126442/steren-products/ELEC351.jpg",
     "facets": {
       "device_type": "Motorreductor",
       "motor_type": "DC con caja reductora",
@@ -23534,7 +23534,7 @@
     "in_stock": true,
     "stock_quantity": 35,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/194642b82/motor-reductor-de-doble-tipo-i-3-vcc.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126444/steren-products/ELEC352.jpg",
     "facets": {
       "device_type": "Motorreductor",
       "motor_type": "DC con caja reductora",
@@ -23601,7 +23601,7 @@
     "in_stock": true,
     "stock_quantity": 25,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/203010f82/servomotor-con-torque-de-10-kgf-cm.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126446/steren-products/ELEC353.jpg",
     "facets": {
       "device_type": "Servomotor",
       "motor_type": "Servo estándar",
@@ -23668,7 +23668,7 @@
     "in_stock": true,
     "stock_quantity": 9,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20302c5bf/servomotor-con-torque-de-6-5-kgf-cm.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126449/steren-products/ELEC354.jpg",
     "facets": {
       "device_type": "Servomotor",
       "motor_type": "Servo estándar",
@@ -23735,7 +23735,7 @@
     "in_stock": true,
     "stock_quantity": 35,
     "rating": 4.3,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/1945804cd/tarjeta-para-control-de-motores-cc-l293d.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126450/steren-products/ELEC355.jpg",
     "facets": {
       "device_type": "Driver de motor",
       "motor_type": "Puente H L293D",
@@ -23802,7 +23802,7 @@
     "in_stock": true,
     "stock_quantity": 11,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19452484b/tarjeta-de-control-para-motor-a-pasos.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126452/steren-products/ELEC356.jpg",
     "facets": {
       "device_type": "Driver de motor",
       "motor_type": "Motor a pasos",
@@ -23936,7 +23936,7 @@
     "in_stock": true,
     "stock_quantity": 29,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20366f74a/motor-reductor-con-eje-tipo-i-12-vcc.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126455/steren-products/ELEC358.jpg",
     "facets": {
       "device_type": "Motorreductor",
       "motor_type": "DC con caja reductora",
@@ -24003,7 +24003,7 @@
     "in_stock": true,
     "stock_quantity": 19,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20508a6e1/motor-reductor-metalico-con-eje-tipo-d-12-vcc.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126458/steren-products/ELEC359.jpg",
     "facets": {
       "device_type": "Motorreductor",
       "motor_type": "DC con caja reductora metálica",
@@ -24070,7 +24070,7 @@
     "in_stock": true,
     "stock_quantity": 26,
     "rating": 4.2,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20576985a/juego-de-engranes.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126461/steren-products/ELEC360.jpg",
     "facets": {
       "device_type": "Mecánica",
       "motor_type": "Engranajes",
@@ -24137,7 +24137,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19465b474/motor-a-pasos-de-4-lineas-de-control-5-vcc.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126463/steren-products/ELEC361.jpg",
     "facets": {
       "device_type": "Motor a pasos",
       "motor_type": "Stepper",
@@ -24204,7 +24204,7 @@
     "in_stock": true,
     "stock_quantity": 13,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/215222ddb/valvula-solenoide.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126466/steren-products/ELEC362.jpg",
     "facets": {
       "device_type": "Solenoide",
       "motor_type": "Válvula eléctrica",
@@ -24271,7 +24271,7 @@
     "in_stock": true,
     "stock_quantity": 6,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19455e22a/llantas-de-plastico.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126469/steren-products/ELEC363.jpg",
     "facets": {
       "device_type": "Rueda",
       "motor_type": "Rueda para motorreductor",
@@ -24338,7 +24338,7 @@
     "in_stock": true,
     "stock_quantity": 39,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/19544fbbf/tarjeta-para-control-de-motores-cc-l298n.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126472/steren-products/ELEC364.jpg",
     "facets": {
       "device_type": "Driver de motor",
       "motor_type": "Puente H L298N",
@@ -24405,7 +24405,7 @@
     "in_stock": true,
     "stock_quantity": 39,
     "rating": 4.1,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20367551d/mini-motor-de-corriente-directa.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126475/steren-products/ELEC365.jpg",
     "facets": {
       "device_type": "Motor DC",
       "motor_type": "Motor de corriente continua",
@@ -24472,7 +24472,7 @@
     "in_stock": true,
     "stock_quantity": 25,
     "rating": 4.9,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20314bdac/buzzer-activo.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126478/steren-products/ELEC366.jpg",
     "facets": {
       "device_type": "Actuador sonoro",
       "motor_type": "Buzzer activo",
@@ -24539,7 +24539,7 @@
     "in_stock": true,
     "stock_quantity": 37,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/20313c1b1/buzzer-pasivo.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126481/steren-products/ELEC367.jpg",
     "facets": {
       "device_type": "Actuador sonoro",
       "motor_type": "Buzzer pasivo",
@@ -24606,7 +24606,7 @@
     "in_stock": true,
     "stock_quantity": 21,
     "rating": 4.6,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/21430a4ed/micro-bomba-de-agua-con-flujo-de-80-120-l-h.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126484/steren-products/ELEC368.jpg",
     "facets": {
       "device_type": "Bomba",
       "motor_type": "Bomba DC de agua",
@@ -24673,7 +24673,7 @@
     "in_stock": true,
     "stock_quantity": 12,
     "rating": 4.4,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/226526e3d/motor-reductor-de-doble-eje-tipo-i-3-vcc-1-120.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126487/steren-products/ELEC369.jpg",
     "facets": {
       "device_type": "Motorreductor",
       "motor_type": "DC con caja reductora",
@@ -24740,7 +24740,7 @@
     "in_stock": true,
     "stock_quantity": 22,
     "rating": 4.8,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/22840bf48/motor-a-pasos-nema-17.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126490/steren-products/ELEC370.jpg",
     "facets": {
       "device_type": "Motor a pasos",
       "motor_type": "Stepper bipolar NEMA 17",
@@ -25075,7 +25075,7 @@
     "in_stock": false,
     "stock_quantity": 0,
     "rating": 4.4,
-    "image_url": "https://lashf.org/wp-content/uploads/2024/12/SHF-general-vert-1-1024x675.png",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788135780/ELEC375_lbtvr9.jpg",
     "facets": {
       "device_type": "Motorreductor",
       "motor_type": "DC tipo TT doble eje",
@@ -25544,7 +25544,7 @@
     "in_stock": true,
     "stock_quantity": 10,
     "rating": 4.7,
-    "image_url": "http://www.damova.es/img/cms/banners/smagua-2019.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788135781/ELEC382_mknvuw.webp",
     "facets": {
       "device_type": "Bomba",
       "motor_type": "Peristáltica",
@@ -25611,7 +25611,7 @@
     "in_stock": true,
     "stock_quantity": 40,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/465d1208dfb9d38a81aba4899187c666/image/19453a19e/juego-de-80-cables-de-15-cm-tipo-dupont.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126493/steren-products/ELEC383.jpg",
     "facets": {
       "device_type": "Bomba",
       "motor_type": "Centrífuga sumergible",
@@ -25678,7 +25678,7 @@
     "in_stock": true,
     "stock_quantity": 4,
     "rating": 4.6,
-    "image_url": "https://osa.com.ua/wp-content/uploads/2022/08/osa-logo-black.png",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788135784/ELEC384_vkwhs8.jpg",
     "facets": {
       "device_type": "Electroimán",
       "motor_type": "Sujeción magnética",
@@ -26482,7 +26482,7 @@
     "in_stock": true,
     "stock_quantity": 27,
     "rating": 4.7,
-    "image_url": "https://sandorobotics.com.mx/wp-content/uploads/2023/09/HS1471-100A-1.jpeg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133228/ELEC396_w84c23.jpg",
     "facets": {
       "device_type": "Actuador lineal",
       "motor_type": "Motor DC con husillo",
@@ -26750,7 +26750,7 @@
     "in_stock": true,
     "stock_quantity": 15,
     "rating": 4.8,
-    "image_url": "https://www.mouser.ec/images/deltaelectronics/lrg/BFB0512H-R00_SPL.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133228/ELEC400_iqquyn.jpg",
     "facets": {
       "device_type": "Ventilador",
       "motor_type": "Blower centrífugo",
@@ -27420,7 +27420,7 @@
     "in_stock": true,
     "stock_quantity": 5,
     "rating": 4.5,
-    "image_url": "https://www.mouser.co.cr/images/saleae/images/SAL-00111_SPL.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788133229/ELEC410_e44nym.jpg",
     "facets": {
       "tool_type": "Analizador lógico",
       "measurement_type": "Señales digitales",
@@ -28827,7 +28827,7 @@
     "in_stock": true,
     "stock_quantity": 28,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/217692474/tapete-profesional-organizador-de-trabajo-antiestatico-y-magnetico.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126496/steren-products/ELEC431.jpg",
     "facets": {
       "tool_type": "Accesorio de banco",
       "measurement_type": "Organización y protección ESD",
@@ -31306,7 +31306,7 @@
     "in_stock": true,
     "stock_quantity": 7,
     "rating": 4.5,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/bb0cad18a6adb5d17b0efd58f4201a2f/image/218451281/panel-solar-para-camara-cctv-de-bateria-recargable.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126498/steren-products/ELEC468.jpg",
     "facets": {
       "power_type": "Panel solar",
       "input_voltage": "Luz solar",
@@ -32244,7 +32244,7 @@
     "in_stock": true,
     "stock_quantity": 19,
     "rating": 4.7,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/295a12aacdcb0329a521cbf9876b29e7/image/22096c062/cable-hdmir-2-0-de-alta-velocidad-de-2-m.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126501/steren-products/ELEC482.jpg",
     "facets": {
       "cable_type": "Cable HDMI",
       "connector_a": "HDMI tipo A",
@@ -33249,7 +33249,7 @@
     "in_stock": true,
     "stock_quantity": 17,
     "rating": 4.1,
-    "image_url": "https://www.steren.cr/media/catalog/product/cache/0236bbabe616ddcff749ccbc14f38bf2/image/23458d750/cables-plug-banana-a-caiman.jpg",
+    "image_url": "https://res.cloudinary.com/dpuuo4mfh/image/upload/v1788126504/steren-products/ELEC497.jpg",
     "facets": {
       "cable_type": "Cable de prueba",
       "connector_a": "Banana 4 mm",
