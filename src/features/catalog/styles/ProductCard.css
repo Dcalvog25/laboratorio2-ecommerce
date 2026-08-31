@@ -1,6 +1,6 @@
 .product-card {
     width: 260px;
-    height: 420px;
+    height: 425px;
 
     display: flex;
     flex-direction: column;
@@ -154,4 +154,15 @@
     text-decoration: line-through;
     margin-left: 8px;
     color: #b4b6b9;
+}
+
+.product-model {
+    margin: -4px 0 8px;
+
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #9ca3af;
+
+    line-height: 1.3;
 }

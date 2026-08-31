@@ -25,6 +25,8 @@ export default function ProductCard({ hit }) {
         <div className="product-info">
         <h3 className="product-title">{hit.title}</h3>
 
+        <p className="product-model">MOD: {hit.model}</p>
+
         <p className="product-price">
             {tieneDescuento && (
                 <>
