@@ -1,7 +1,8 @@
 import "../styles/ProductInfo.css";
 import { useState, useEffect } from "react";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, ShieldCheck, Truck } from "lucide-react";
 import translations from "../../../locales/es.json";
+import Rating from "./Rating";
 
 export default function ProductInfo({ product }) {
 
@@ -19,7 +20,17 @@ export default function ProductInfo({ product }) {
                     </div>
 
                     <div className="pi-der">
+
+                        <p className="pi-product-mod">MOD: {product.model}</p>
+
                         <p className="pi-product-title">{product.title}</p>
+
+                        <Rating rating={product.rating} />
+
+                        <div className="pi-product-badges">
+                            <span className="pi-product-warranty pi-product-badge"><ShieldCheck /> Garantía de {product.b2c.warranty_months} meses</span>
+                            <span className="pi-product-estimated-delivery pi-product-badge"><Truck /> Tiempo de entrega estimado de {product.b2c.estimated_delivery_days} días</span>
+                        </div>
 
                         <div className="pi-product-info-container-details">
                             <h3>Características del producto:</h3>
