@@ -1,0 +1,16 @@
+.catalog-page {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.panel-izq {
+    width: 100%;
+}
+
+.panel-der {
+    min-width: 0;
+}
