@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { ShoppingCart, ShieldCheck, Truck } from "lucide-react";
 import translations from "../../../locales/es.json";
 import Rating from "./Rating";
+import StoresStock from "./StoresStock";
 
 export default function ProductInfo({ product }) {
 
@@ -79,6 +80,8 @@ export default function ProductInfo({ product }) {
                     <h3>Descripción del producto:</h3>
                     <p className="pi-product-description">{product.description}</p>
                 </div> 
+
+                <StoresStock branches={product.branches} />
 
             </>
 
