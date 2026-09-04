@@ -5,9 +5,24 @@
     align-self: center;
 }
 
+.pi-route-product {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7d8086;
+}
+
+.pi-category-link {
+    cursor: pointer;
+}
+
+.pi-category-link:hover {
+    text-decoration: underline;
+}
+
 .pi-product-detail-grid {
     width: 100%;
     display: grid;
+    margin-top: 15px;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
     gap: 40px;
     align-items: start;
@@ -19,8 +34,9 @@
 .pi-izq {
     width: 100%;
     min-width: 0;
+    height: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -28,7 +44,7 @@
     width: 100%;
     max-width: 600px;
     height: auto;
-    max-height: 500px;
+    max-height: 550px;
     object-fit: contain;
 }
 
@@ -95,7 +111,7 @@
 
 .pi-product-info-container-details {
     margin-bottom: 20px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .pi-product-info-container-details h3 {
@@ -112,7 +128,7 @@
 }
 
 .pi-product-details li {
-    margin-bottom: 2px;
+    margin-bottom: 3px;
 }
 
 
@@ -157,19 +173,27 @@
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 .pi-shipping-quantity-container {
+    width: 90px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0;
 
-    border: 1px solid #000000;
+    border: 1px solid #345499;
     border-radius: 6px;
 
     padding: 0;
     flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.pi-shipping-quantity {
+    flex: 1;
+    text-align: center;
+    padding: 0 5px;
 }
 
 .pi-shipping-button-del,
@@ -197,9 +221,6 @@
     cursor: not-allowed;
 }
 
-.pi-shipping-quantity {
-    padding: 0 5px;
-}
 
 
 
@@ -247,6 +268,52 @@
     flex-shrink: 0;
     display: block;
 }
+
+
+
+
+.pi-without-stock {
+    flex: 1;
+    width: auto;
+    min-width: 0;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+    padding: 10px 16px;
+
+    border: 1px solid #060606;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: black;
+
+    cursor: not-allowed;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    box-sizing: border-box;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.pi-without-stock:hover {
+    background: #8b8b8b;
+    color: white;
+}
+
+.pi-without-stock svg {
+    flex-shrink: 0;
+    display: block;
+}
+
 
 
 

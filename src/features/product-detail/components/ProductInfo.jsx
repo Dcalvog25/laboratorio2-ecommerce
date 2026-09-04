@@ -1,19 +1,42 @@
 import "../styles/ProductInfo.css";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { ShoppingCart, ShieldCheck, Truck } from "lucide-react";
 import translations from "../../../locales/es.json";
 import Rating from "./Rating";
 import StoresStock from "./StoresStock";
 
 export default function ProductInfo({ product }) {
+    const [cantidadCarrito, setCantidadCarrito] = useState(98);
+
+    const navigate = useNavigate();
 
     const tieneDescuento = product?.b2c?.discount_percentage > 0;
 
     return (
     <div className="pi-page">
-        <h2>Detalles del Producto</h2>
         {product ? (
             <>
+                <span className="pi-route-product">
+                    {product?.categories.map((category, index) => (
+                        <span key={category}>
+                            <span
+                                className="pi-category-link"
+                                onClick={() =>
+                                    navigate("/search", {
+                                        state: {
+                                            category: category
+                                        }
+                                    })
+                                }
+                            >
+                                {category}
+                            </span>
+
+                            {index < product.categories.length - 1 && " > "}
+                        </span>
+                    ))}
+                </span>
                 <div className="pi-product-detail-grid">
 
                     <div className="pi-izq">
@@ -59,16 +82,23 @@ export default function ProductInfo({ product }) {
                                 <span className="pi-product-price">₡{Number(product.b2c.sale_price).toLocaleString("en-US")}</span>
                             )}
                         </div>
-
-                        <div className="pi-shipping-container">
+                        
+                        {product.in_stock ? (
+                            <div className="pi-shipping-container">
                             <div className="pi-shipping-quantity-container">
-                                <button className="pi-shipping-button-del">-</button>
-                                <span className="pi-shipping-quantity">1</span>
-                                <button className="pi-shipping-button-add">+</button>
+                                <button className="pi-shipping-button-del" onClick={() => setCantidadCarrito(cantidadCarrito - 1)}>-</button>
+                                <span className="pi-shipping-quantity">{cantidadCarrito}</span>
+                                <button className="pi-shipping-button-add" onClick={() => setCantidadCarrito(cantidadCarrito + 1)}>+</button>
                             </div>
 
                             <button className="pi-add-to-cart"><ShoppingCart /> Agregar al carrito</button>
                         </div>
+                        ) : (
+                            <div className="pi-shipping-container">
+                                <span className="pi-without-stock">Producto agotado</span>
+                            </div>
+                        )}
+                        
                     </div>
 
                     
@@ -77,7 +107,7 @@ export default function ProductInfo({ product }) {
                 </div>
 
                 <div className="pi-product-info-container-description">
-                    <h3>Descripción del producto:</h3>
+                    <h3 className="pi-subtitle">Descripción del producto:</h3>
                     <p className="pi-product-description">{product.description}</p>
                 </div> 
 
