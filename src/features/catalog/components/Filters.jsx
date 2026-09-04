@@ -1,4 +1,5 @@
 import { RefinementList, RangeInput } from "react-instantsearch";
+import PriceSlider from "./PriceSlider"; 
 import "../styles/Filters.css";
 
 export default function Filters() {
@@ -28,14 +29,10 @@ export default function Filters() {
 
             <div className="filter-section">
                 <h3 className="filter-subtitle">Precio (₡)</h3>
-                <RangeInput 
-                    attribute="b2c.sale_price" 
-                    translations={{
-                        submit: 'Aplicar',
-                        separator: 'a',
-                    }}
-                />
+                {/* double slider conectado a Algolia */}
+                <PriceSlider attribute="b2c.sale_price" />
             </div>
+
         </div>
     );
 }
