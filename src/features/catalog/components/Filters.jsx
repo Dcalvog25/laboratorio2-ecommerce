@@ -1,5 +1,5 @@
 import { RefinementList } from "react-instantsearch";
-import "../styles/Filters.css"; 
+import "../styles/Filters.css";
 
 export default function Filters() {
     return (
@@ -12,6 +12,17 @@ export default function Filters() {
                     attribute="category" 
                     searchable={true} 
                     searchablePlaceholder="Buscar categoría..."
+                    showMore={true}
+                />
+            </div>
+
+        
+            <div className="filter-section">
+                <h3 className="filter-subtitle">Marca</h3>
+                <RefinementList 
+                    attribute="brand" 
+                    searchable={true} 
+                    searchablePlaceholder="Buscar marca..."
                     showMore={true}
                 />
             </div>
