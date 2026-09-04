@@ -4,6 +4,7 @@
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-top: 120px; 
 }
 
 .filters-title {
@@ -31,6 +32,24 @@
     list-style: none !important;
     padding: 0 !important;
     margin: 0 !important;
+    max-height: 220px; /* Altura máxima de la caja antes de scrollear */
+    overflow-y: auto; /* Activa el scroll vertical */
+    padding-right: 5px !important; /* Espacio para que el scroll no tape los contadores */
+}
+/* barra de scroll */
+.ais-RefinementList-list::-webkit-scrollbar {
+    width: 6px;
+}
+.ais-RefinementList-list::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 4px;
+}
+.ais-RefinementList-list::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 4px;
+}
+.ais-RefinementList-list::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
 }
 
 .ais-RefinementList-item {
@@ -39,8 +58,10 @@
 
 .ais-RefinementList-label {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Alinea los elementos arriba en caso de que el texto use dos líneas */
+    justify-content: space-between;
     cursor: pointer;
+    padding: 2px 0; /* vertical extra */
 }
 
 /* Checkbox cuadrado y limpio */
@@ -51,7 +72,7 @@
     height: 18px;
     border: 1px solid #d1d5db;
     border-radius: 3px;
-    margin: 0 12px 0 0;
+    margin: 2px 12px 0 0; /*  margen para alinear con la primera línea de texto */
     cursor: pointer;
     position: relative;
     flex-shrink: 0;
@@ -77,14 +98,16 @@
 /* Texto del filtro */
 .ais-RefinementList-labelText {
     flex-grow: 1;
-    font-size: 0.9rem;
+    font-size: 0.85rem; /* pequeño para optimizar espacio */
     font-weight: 500;
-    color: #111;
-    text-transform: uppercase;
+    color: #222;
+    line-height: 1.3;
+    margin-right: 10px;
+
 }
 
-/* Contador (Burbuja gris a la derecha) */
 .ais-RefinementList-count {
+    flex-shrink: 0;
     background-color: #f3f4f6;
     color: #6b7280;
     padding: 2px 10px;
@@ -92,6 +115,7 @@
     font-size: 0.75rem;
     font-weight: 600;
     border: 1px solid #e5e7eb;
+    margin-top: 1px; /* Para que alinee perfecto con la primera línea de texto */
 }
 
 /* --- BUSCADOR INTERNO DE MARCA/CATEGORÍA --- */
@@ -163,6 +187,11 @@
 
 .ais-RefinementList-showMore--disabled {
     display: none;
+}
+
+/* Ocultar el botón Show More ya que ahora scrolleamos */
+.ais-RefinementList-showMore {
+    display: none !important;
 }
 
 /* --- PRECIO (RangeInput) --- */

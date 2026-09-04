@@ -12,7 +12,7 @@ export default function Filters() {
                     attribute="category" 
                     searchable={true} 
                     searchablePlaceholder="Buscar categoría..."
-                    showMore={true}
+                    limit={50} /* Carga hasta 50 categorías de golpe para poder scrollear */
                 />
             </div>
 
@@ -22,7 +22,7 @@ export default function Filters() {
                     attribute="brand" 
                     searchable={true} 
                     searchablePlaceholder="Buscar marca..."
-                    showMore={true}
+                    limit={50} /* Carga hasta 50 marcas */
                 />
             </div>
 
