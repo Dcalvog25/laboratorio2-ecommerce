@@ -1,4 +1,4 @@
-import { RefinementList } from "react-instantsearch";
+import { RefinementList, RangeInput } from "react-instantsearch";
 import "../styles/Filters.css";
 
 export default function Filters() {
@@ -16,7 +16,6 @@ export default function Filters() {
                 />
             </div>
 
-        
             <div className="filter-section">
                 <h3 className="filter-subtitle">Marca</h3>
                 <RefinementList 
@@ -24,6 +23,17 @@ export default function Filters() {
                     searchable={true} 
                     searchablePlaceholder="Buscar marca..."
                     showMore={true}
+                />
+            </div>
+
+            <div className="filter-section">
+                <h3 className="filter-subtitle">Precio (₡)</h3>
+                <RangeInput 
+                    attribute="b2c.sale_price" 
+                    translations={{
+                        submit: 'Aplicar',
+                        separator: 'a',
+                    }}
                 />
             </div>
         </div>

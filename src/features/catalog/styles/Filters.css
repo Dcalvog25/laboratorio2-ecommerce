@@ -83,3 +83,38 @@
     padding: 0;
     margin-top: 5px;
 }
+
+/* Estilos para el RangeInput (Precio) */
+.ais-RangeInput-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ais-RangeInput-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.ais-RangeInput-separator {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.ais-RangeInput-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.ais-RangeInput-submit:hover {
+    background-color: #0056b3;
+}
