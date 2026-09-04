@@ -1,3 +1,4 @@
+/* --- CONTENEDORES PRINCIPALES --- */
 .filters-container {
     background-color: #ffffff;
     border-radius: 8px;
@@ -19,72 +20,152 @@
 }
 
 .filter-subtitle {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 12px;
-    color: #444;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000;
 }
 
-/* Estilos de la lista de Algolia (RefinementList) */
+/* --- LISTAS Y CHECKBOXES --- */
 .ais-RefinementList-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .ais-RefinementList-item {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .ais-RefinementList-label {
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 0.9rem;
-    color: #555;
 }
 
+/* Checkbox cuadrado y limpio */
 .ais-RefinementList-checkbox {
-    margin-right: 10px;
-    accent-color: #007bff;
-    width: 16px;
-    height: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 3px;
+    margin: 0 12px 0 0;
     cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+    background-color: #fff;
+    transition: all 0.2s;
 }
 
+.ais-RefinementList-checkbox:checked {
+    background-color: #fff;
+    border-color: #007bff;
+}
+
+.ais-RefinementList-checkbox:checked::after {
+    content: "✓";
+    position: absolute;
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    top: -2px;
+    left: 2px;
+}
+
+/* Texto del filtro */
+.ais-RefinementList-labelText {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #111;
+    text-transform: uppercase;
+}
+
+/* Contador (Burbuja gris a la derecha) */
 .ais-RefinementList-count {
-    margin-left: auto;
-    background-color: #f1f1f1;
-    color: #666;
-    padding: 2px 8px;
+    background-color: #f3f4f6;
+    color: #6b7280;
+    padding: 2px 10px;
     border-radius: 12px;
     font-size: 0.75rem;
-    font-weight: bold;
+    font-weight: 600;
+    border: 1px solid #e5e7eb;
 }
 
+/* --- BUSCADOR INTERNO DE MARCA/CATEGORÍA --- */
 .ais-RefinementList-searchBox .ais-SearchBox-form {
-    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .ais-RefinementList-searchBox .ais-SearchBox-input {
     width: 100%;
-    padding: 6px 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 10px 35px 10px 15px; 
+    border: 1px solid #d1d5db;
+    border-radius: 20px; 
     font-size: 0.85rem;
+    outline: none;
+    background-color: #ffffff !important; 
+    color: #333 !important;
 }
 
-.ais-RefinementList-showMore {
-    background: none;
+.ais-RefinementList-searchBox .ais-SearchBox-input:focus {
+    border-color: #007bff;
+}
+
+.ais-RefinementList-searchBox .ais-SearchBox-submit {
+    position: absolute;
+    right: 12px;
+    background: transparent;
     border: none;
-    color: #007bff;
-    font-size: 0.85rem;
-    cursor: pointer;
     padding: 0;
-    margin-top: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Estilos para el RangeInput (Precio) */
+.ais-RefinementList-searchBox .ais-SearchBox-submitIcon {
+    width: 16px;
+    height: 16px;
+    fill: #6b7280; 
+}
+
+.ais-RefinementList-searchBox .ais-SearchBox-reset {
+    display: none;
+}
+
+/* --- BOTÓN MOSTRAR MÁS --- */
+.ais-RefinementList-showMore {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-top: 5px;
+    color: #007bff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border: 1px dashed #cbd5e0;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.ais-RefinementList-showMore:hover {
+    background-color: #f8fbff;
+    border-color: #007bff;
+}
+
+.ais-RefinementList-showMore--disabled {
+    display: none;
+}
+
+/* --- PRECIO (RangeInput) --- */
 .ais-RangeInput-form {
     display: flex;
     align-items: center;
