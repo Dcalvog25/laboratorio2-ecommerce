@@ -153,7 +153,10 @@
 }
 
 .pi-product-discount-badge {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
 
     background-color: #e23a3d;
     color: white;
@@ -167,6 +170,11 @@
     margin-left: 12px;
 }
 
+.pi-product-discount-badge svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+}
 
 
 .pi-shipping-container {
@@ -217,7 +225,7 @@
 
 .pi-shipping-button-del:disabled,
 .pi-shipping-button-add:disabled {
-    background-color: #6e6e6e;
+    color: #b4b6b9;
     cursor: not-allowed;
 }
 
