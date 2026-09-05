@@ -10,7 +10,7 @@ export default function Filters() {
             <div className="filter-section">
                 <h3 className="filter-subtitle">Categoría</h3>
                 <RefinementList 
-                    attribute="category" 
+                    attribute="categories" 
                     searchable={true} 
                     searchablePlaceholder="Buscar categoría..."
                     limit={50} /* Carga hasta 50 categorías */
