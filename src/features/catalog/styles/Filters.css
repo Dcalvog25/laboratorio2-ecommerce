@@ -25,6 +25,7 @@
     font-weight: 700;
     margin-bottom: 12px;
     color: #000;
+    text-align: left;
 }
 
 /* --- LISTAS Y CHECKBOXES --- */
@@ -200,18 +201,34 @@
 
 /* --- EFECTOS HOVER --- */
 .ais-RefinementList-label:hover .ais-RefinementList-labelText {
-    color: #007bff; /* El texto se vuelve azul */
+    color: #345499 !important;
     transition: color 0.2s ease;
 }
 
 .ais-RefinementList-label:hover .ais-RefinementList-checkbox {
-    border-color: #007bff; /* El borde del cuadro resalta en azul */
+    border-color: #345499 !important;
 }
 
 .ais-RefinementList-label:hover .ais-RefinementList-count {
-    background-color: #e5e7eb; /* La burbuja se oscurece un poco */
-    color: #374151; /* El número se vuelve más oscuro */
+    background-color: #345499 !important;
+    color: white !important;
+    border-color: #345499 !important;
     transition: all 0.2s ease;
+}
+
+.ais-RefinementList-item--selected .ais-RefinementList-checkbox {
+    background-color: #345499 !important;
+    border-color: #345499 !important;
+}
+
+.ais-RefinementList-item--selected .ais-RefinementList-checkbox::after {
+    content: "✓";
+    position: absolute;
+    color: white !important; /* Check blanco con el fondo azul */
+    font-size: 12px;
+    font-weight: bold;
+    top: -1px;
+    left: 3px;
 }
 
 

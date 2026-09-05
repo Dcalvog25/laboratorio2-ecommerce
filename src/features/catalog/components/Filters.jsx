@@ -13,7 +13,7 @@ export default function Filters() {
                     attribute="category" 
                     searchable={true} 
                     searchablePlaceholder="Buscar categoría..."
-                    limit={50} /* Carga hasta 50 categorías de golpe para poder scrollear */
+                    limit={50} /* Carga hasta 50 categorías */
                 />
             </div>
 
