@@ -2,9 +2,9 @@ import { InstantSearch } from "react-instantsearch";
 import { useLocation } from "react-router-dom";
 import SearchBar from "../features/catalog/components/SearchBar";
 import ProductGrid from "../features/catalog/components/ProductGrid";
-import Filters from "../features/catalog/components/filters";
+import Filters from "../features/catalog/components/Filters";
 import searchClient from "../features/catalog/services/algolia";
-import "./CatalogPage.css";
+import "../styles/CatalogPage.css";
 
 
 function CatalogPage() {

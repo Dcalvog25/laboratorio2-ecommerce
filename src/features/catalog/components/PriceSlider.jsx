@@ -71,8 +71,9 @@ export default function PriceSlider(props) {
             {/* Inputs de texto sincronizados arriba */}
             <div className="price-inputs-grid">
                 <div className="price-input-group">
-                    <label>Min</label>
+                    <label htmlFor="price-min">Min</label>
                     <input
+                        id="price-min"
                         type="number"
                         value={minValueInput}
                         onChange={handleMinInputChange}

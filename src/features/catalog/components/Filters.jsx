@@ -1,4 +1,4 @@
-import { RefinementList, RangeInput } from "react-instantsearch";
+import { RefinementList } from "react-instantsearch";
 import PriceSlider from "./PriceSlider"; 
 import "../styles/Filters.css";
 
