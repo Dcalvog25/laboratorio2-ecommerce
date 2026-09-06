@@ -169,6 +169,51 @@
     color: #ffffff;
 }
 
+
+/* --- Efectos Decorativos del Footer --- */
+
+.site-footer {
+    position: relative;
+    overflow: hidden;
+    /* Un gradiente sutil en lugar de un color sólido plano */
+    background: linear-gradient(135deg, #0b1120 0%, #111827 100%);
+}
+
+.footer-glow {
+    position: absolute;
+    top: -150px;
+    left: -10%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(52, 84, 153, 0.12) 0%, rgba(11, 17, 32, 0) 70%);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* 3. Cabecera con logo  */
+.footer-brand-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-mini-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 2px solid #345499;
+    box-shadow: 0 0 15px rgba(52, 84, 153, 0.5); 
+}
+
+.footer-headline {
+    margin: 0; 
+}
+
+
+
 /* --- Responsividad --- */
 @media (max-width: 900px) {
     .footer-main {

@@ -1,12 +1,18 @@
 import "../styles/Footer.css";
 
+import robotLogo from "../../../assets/ElectroLogo.png"; 
+
 export default function Footer() {
     return (
         <footer className="site-footer">
+
             <div className="footer-main">
-             
+                
                 <div className="footer-brand-newsletter">
-                    <h2 className="footer-headline">Electro-Commerce CR</h2>
+                    <div className="footer-brand-header">
+                        <img src={robotLogo} alt="Logo" className="footer-mini-logo" />
+                        <h2 className="footer-headline">Electro-Commerce CR</h2>
+                    </div>
                     <p className="footer-subtext">
                         Recibe actualizaciones exclusivas sobre nuevos microcontroladores, sensores y ofertas directo en tu correo.
                     </p>
@@ -58,7 +64,7 @@ export default function Footer() {
                 </div>
             </div>
 
-         
+            
             <div className="footer-bottom">
                 <div className="footer-copyright">
                     &copy; {new Date().getFullYear()} Electro-Commerce CR. Todos los derechos reservados.
