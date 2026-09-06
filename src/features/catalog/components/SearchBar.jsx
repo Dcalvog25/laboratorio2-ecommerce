@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import { autocomplete } from "@algolia/autocomplete-js";
 import { getAlgoliaResults } from "@algolia/autocomplete-preset-algolia";
 import { debounce } from "@algolia/autocomplete-shared";
+import { createLocalStorageRecentSearchesPlugin } from "@algolia/autocomplete-plugin-recent-searches";
 import { useSearchBox } from "react-instantsearch";
 import searchClient from "../services/algolia";
 import "../styles/SearchBar.css";
@@ -25,6 +26,24 @@ export default function SearchBar() {
         []
     );
 
+    const recentSearchesPlugin = useMemo(() => {
+        return createLocalStorageRecentSearchesPlugin({
+        key: "RECENT_SEARCH",
+        limit: 5,
+        
+        transformSource({ source }) {
+            return {
+            ...source,
+            onSelect({ item }) {
+                if (item.query) {
+                refineRef.current(item.query);
+                }
+            },
+            };
+        },
+        });
+    }, []);
+
     useEffect(() => {
         if (!containerRef.current) return;
 
@@ -35,6 +54,7 @@ export default function SearchBar() {
             openOnFocus: true,
             initialState: { query },
             detachedMediaQuery: "none",
+            plugins: [recentSearchesPlugin],
 
             onSubmit({ state }) {
                 refineRef.current(state.query);
@@ -59,6 +79,7 @@ export default function SearchBar() {
             },
 
             getSources({ query }) {
+
                 if (!query) return [];
 
                 return [
@@ -84,8 +105,13 @@ export default function SearchBar() {
                             item({ item }) {
                                 return (
                                     <div className="ctg-autocomplete-item">
-                                        <strong>{item.title}</strong>
-                                        {item.model ? <p>{item.model}</p> : null}
+                                        <div className="ctg-autocomplete-item-image">
+                                          <img src={item.image_url} alt={item.title} />
+                                        </div>
+                                        <div className="ctg-autocomplete-item-info">
+                                          <strong>{item.title}</strong>
+                                          {item.model ? <p>[{item.model}] <span className="ctg-autocomplete-item-price">{item.currency != "CRC" ? "$" : "₡"}{item.b2c.sale_price}</span></p> : null}
+                                        </div>
                                     </div>
                                 );
                             },
