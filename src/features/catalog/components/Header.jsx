@@ -20,11 +20,18 @@ export default function Header() {
 
                 
                 <div className="header-actions">
-                    <div className="header-support">
-                        <span className="support-icon">🎧</span>
-                        <div className="support-text">
-                            <span className="support-label">Soporte Técnico</span>
-                            <span className="support-phone">4350-2222</span>
+                    <div className="account-icon-wrapper">
+                            <svg className="account-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                    </div>
+                    <div className="account-text">
+                        <span className="account-label">Account</span>
+                        <div className="account-links">
+                            <a href="#signin">Sign In</a>
+                            <span className="separator">/</span>
+                            <a href="#signup">Sign Up</a>
                         </div>
                     </div>
 

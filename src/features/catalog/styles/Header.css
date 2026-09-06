@@ -5,8 +5,8 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #0b1120; /* Azul noche / Slate de nuestra paleta */
-    border-bottom: 3px solid #345499; /* Tu azul corporativo */
+    background-color: #0b1120; 
+    border-bottom: 3px solid #345499; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
     z-index: 1000;
     box-sizing: border-box;
@@ -49,7 +49,7 @@
     letter-spacing: -0.3px;
 }
 
-/* --- 2. Barra de Búsqueda (Algolia Integrada) --- */
+/* --- 2. Barra de Búsqueda  --- */
 .header-search-container {
     flex: 1;
     max-width: 600px;
@@ -66,7 +66,7 @@
     width: 100%;
     height: 42px;
     padding: 0 45px 0 18px;
-    background-color: #1e293b; /* Fondo sutil para el input */
+    background-color: #1e293b; 
     border: 1px solid #334155;
     border-radius: 8px;
     color: #ffffff;
@@ -110,43 +110,84 @@
 }
 
 .header-search-reset {
-    display: none; /* Ocultamos el botón por defecto de limpiar si interfiere */
+    display: none; 
 }
 
-/* --- 3. Acciones Derecha (Soporte y Carrito) --- */
+/* --- 3. Acciones Derecha (Cuenta y Carrito) --- */
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 20px;
     flex-shrink: 0;
 }
 
-.header-support {
+.header-account {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: border-color 0.2s ease;
 }
 
-.support-icon {
-    font-size: 20px;
+.header-account:hover {
+    border-color: #345499;
 }
 
-.support-text {
+.account-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.account-svg {
+    width: 22px;
+    height: 22px;
+    stroke: #94a3b8;
+}
+
+.account-text {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
 }
 
-.support-label {
-    font-size: 0.7rem;
+.account-label {
+    font-size: 0.65rem;
     color: #94a3b8;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    font-weight: 700;
+    margin-bottom: 2px;
 }
 
-.support-phone {
-    font-size: 0.9rem;
-    font-weight: 700;
+.account-links {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.account-links a {
+    font-size: 0.85rem;
+    font-weight: 600;
     color: #ffffff;
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.account-links a:hover {
+    color: #345499;
+}
+
+.account-links .separator {
+    color: #64748b;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
 /* Botón del Carrito */
@@ -192,9 +233,12 @@
     border: 2px solid #0b1120;
 }
 
-/* --- Responsividad Básica --- */
+/* Responsividad para pantallas pequeñas */
 @media (max-width: 900px) {
-    .header-support {
-        display: none; /* Ocultamos el teléfono en pantallas pequeñas para ahorrar espacio */
+    .header-account {
+        padding: 6px;
+    }
+    .account-text {
+        display: none; /* Muestra solo el icono de cuenta en móviles */
     }
 }
