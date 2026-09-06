@@ -5,6 +5,7 @@ import ProductGrid from "../features/catalog/components/ProductGrid";
 import Filters from "../features/catalog/components/Filters";
 import searchClient from "../features/catalog/services/algolia";
 import "../styles/CatalogPage.css";
+import Footer from "../features/catalog/components/Footer";
 
 
 function CatalogPage() {
@@ -37,6 +38,8 @@ function CatalogPage() {
                 </div>
 
             </div>
+
+            <Footer />
         </InstantSearch>
     );
 }
