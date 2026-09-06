@@ -19,7 +19,7 @@ export default function Pagination() {
                     previousPageItemText: "Anterior",
                     nextPageItemText: "Siguiente",
                     lastPageItemText: "Última",
-                    pageItemText: ({ currentPage }) => `Página ${currentPage}`,
+                    pageItemText: ({ currentPage }) => `${currentPage}`,
                     firstPageItemAriaLabel: "Ir a la primera página",
                     previousPageItemAriaLabel: "Ir a la página anterior",
                     nextPageItemAriaLabel: "Ir a la página siguiente",
