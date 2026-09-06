@@ -181,3 +181,97 @@
     color: #6b7280;
     text-align: center;
 }
+
+
+/* búsquedas recientes */
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-Item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 42px;
+    padding: 6px 12px;
+    border-bottom: 1px solid #f3f4f6;
+    cursor: pointer;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-Item[aria-selected="true"] {
+    background-color: #f1f4fa;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemContent,
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemLink,
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background-color: #f3f4f6;
+    color: #345499;
+    flex-shrink: 0;
+    box-shadow: none;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemIcon svg {
+    width: 17px;
+    height: 17px;
+    fill: currentColor;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemContentTitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111827;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemActions {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    gap: 2px;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemActionButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding: 4px;
+    color: #7a7a7a;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemActionButton:hover {
+    color: #ef4444;
+    background-color: #fee2e2;
+}
+
+.ctg-search-bar .aa-Source[data-autocomplete-source-id="recentSearchesPlugin"] .aa-ItemActionButton svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}
+
+.ctg-search-bar .aa-Panel mark,
+.ctg-search-bar .ctg-autocomplete-item mark {
+    background-color: #3454991c;
+}

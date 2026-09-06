@@ -30,7 +30,7 @@ export default function SearchBar() {
         return createLocalStorageRecentSearchesPlugin({
         key: "RECENT_SEARCH",
         limit: 5,
-        
+
         transformSource({ source }) {
             return {
             ...source,
