@@ -6,6 +6,7 @@ import Filters from "../features/catalog/components/Filters";
 import searchClient from "../features/catalog/services/algolia";
 import "../styles/CatalogPage.css";
 import Footer from "../features/catalog/components/Footer";
+import Header from "../features/catalog/components/Header";
 
 
 function CatalogPage() {
@@ -22,7 +23,8 @@ function CatalogPage() {
                     query: query
                 }
             }}
-        >
+        >   
+            <Header />
             <div className="catalog-page">
 
                 <div className="panel-izq">
