@@ -143,25 +143,37 @@ export default function SearchBar() {
                                 );
                             },
                             item({ item }) {
+                                const isOutOfStock = Number(item.stock_quantity) <= 0;
+                                const isEnabled = item.b2c?.enabled;
+
                                 return (
-                                    <div className="ctg-autocomplete-item">
+                                    <div className={`ctg-autocomplete-item ${isOutOfStock ? "is-out-of-stock" : ""}`}>
                                         <div className="ctg-autocomplete-item-image">
-                                          <img src={item.image_url} alt={item.title} />
+                                            <img src={item.image_url} alt={item.title} />
                                         </div>
                                         <div className="ctg-autocomplete-item-info">
-                                          <strong>{item.title}</strong>
-                                          {item.model ? 
-                                            <p>[{item.model}] 
-                                                <span className="ctg-autocomplete-item-price">
-                                                    {item.currency != "CRC" ? "$" : "₡"}{Number(item.b2c.sale_price).toLocaleString("en-US")}
-                                                </span>
-
-                                                {item.b2c.discount_percentage > 0 ? 
-                                                    <span className="ctg-autocomplete-item-regular-price">
-                                                        {item.currency != "CRC" ? "$" : "₡"}{Number(item.b2c.regular_price).toLocaleString("en-US")}
-                                                    </span> : null
-                                                }
-                                            </p> : null}
+                                            <strong>{item.title}</strong>
+                                            {item.model ? (
+                                                <p>
+                                                    [{item.model}]{" "}
+                                                    <span className="ctg-autocomplete-item-price">
+                                                        {item.currency !== "CRC" ? "$" : "₡"}
+                                                        {Number(item.b2c.sale_price).toLocaleString("en-US")}
+                                                    </span>
+                                                    {item.b2c.discount_percentage > 0 ? (
+                                                        <span className="ctg-autocomplete-item-regular-price">
+                                                            {item.currency !== "CRC" ? "$" : "₡"}
+                                                            {Number(item.b2c.regular_price).toLocaleString("en-US")}
+                                                        </span>
+                                                    ) : null}
+                                                    
+                                                    {isOutOfStock ? (
+                                                        <span className="ctg-autocomplete-badge-out-of-stock">
+                                                            {isEnabled ? "Sin existencias" : "No disponible"}
+                                                        </span>
+                                                    ) : null}
+                                                </p>
+                                            ) : null}
                                         </div>
                                     </div>
                                 );

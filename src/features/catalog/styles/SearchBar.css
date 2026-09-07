@@ -85,8 +85,13 @@
     cursor: pointer;
     margin-right: 10px;
     opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease, visibility 0.2s ease;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.ctg-search-bar .aa-Form:has(.aa-Input:not(:placeholder-shown)) .aa-ClearButton {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /* Mostrar botón de limpiar cuando hay texto y sin focus */
@@ -380,4 +385,43 @@
     font-size: 11px;
     font-weight: 600;
     color: #94a3b8;
+}
+
+.ctg-search-bar .aa-Panel:not(:has(.aa-Item)) {
+    display: none;
+}
+
+/* Contenedor de detalles */
+.ctg-autocomplete-item-details {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.ctg-autocomplete-item-model {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+/* Badge sin stock */
+.ctg-autocomplete-badge-out-of-stock {
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 1;
+    color: #f87171;
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    padding: 1px 5px;
+    border-radius: 3px;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+    align-self: center;
+    transform: translateY(1px);
+}
+
+.ctg-autocomplete-item.is-out-of-stock .ctg-autocomplete-item-image img {
+    opacity: 0.5;
 }
