@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useRef } from "react";
-import { createElement, Fragment } from "react";
+import { useEffect, useMemo, useRef, createElement, Fragment } from "react";
+import { useNavigate } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import { autocomplete } from "@algolia/autocomplete-js";
 import { getAlgoliaResults } from "@algolia/autocomplete-preset-algolia";
@@ -13,6 +13,8 @@ export default function SearchBar() {
     const containerRef = useRef(null);
     const panelRootRef = useRef(null);
     const panelDomRef = useRef(null);
+    const searchInstanceRef = useRef(null);
+    const navigate = useNavigate();
 
     const { query, refine } = useSearchBox();
 
@@ -27,21 +29,47 @@ export default function SearchBar() {
     );
 
     const recentSearchesPlugin = useMemo(() => {
-        return createLocalStorageRecentSearchesPlugin({
-        key: "RECENT_SEARCH",
-        limit: 5,
+        const plugin = createLocalStorageRecentSearchesPlugin({
+            key: "RECENT_SEARCH",
+            limit: 5,
+            transformSource({ source }) {
+                return {
+                    ...source,
+                    onSelect({ item }) {
+                        if (item.query) {
+                            refineRef.current(item.query);
+                        }
+                    },
+                    templates: {
+                        ...source.templates,
+                        header() {
+                            return (
+                                <div className="ctg-recent-searches-header">
+                                    <span className="ctg-recent-searches-title">Búsquedas recientes</span>
+                                    <button
+                                        type="button"
+                                        className="ctg-recent-searches-clear-all"
+                                        onClick={(e) => {
+                                            e.stopPropagation();
 
-        transformSource({ source }) {
-            return {
-            ...source,
-            onSelect({ item }) {
-                if (item.query) {
-                refineRef.current(item.query);
-                }
+                                            Object.keys(localStorage)
+                                                .filter((k) => k.includes("RECENT_SEARCH"))
+                                                .forEach((k) => localStorage.removeItem(k));
+
+                                            searchInstanceRef.current?.refresh();
+                                            searchInstanceRef.current?.setIsOpen(false);
+                                        }}
+                                    >
+                                        Borrar todo
+                                    </button>
+                                </div>
+                            );
+                        },
+                    },
+                };
             },
-            };
-        },
         });
+        return plugin;
     }, []);
 
     useEffect(() => {
@@ -97,11 +125,23 @@ export default function SearchBar() {
                         },
 
                         onSelect({ item, setIsOpen }) {
-                            refineRef.current(item.title ?? query);
+                            if (item.title) {
+                                navigate(`/producto/${item.objectID}`);
+                            }
+                            else {
+                                refineRef.current(query);
+                            }
                             setIsOpen(false);
                         },
 
                         templates: {
+                            header() {
+                                return (
+                                    <div className="ctg-autocomplete-header">
+                                        <span className="ctg-autocomplete-title">Productos</span>
+                                    </div>
+                                );
+                            },
                             item({ item }) {
                                 return (
                                     <div className="ctg-autocomplete-item">
@@ -139,8 +179,11 @@ export default function SearchBar() {
             },
         });
 
+        searchInstanceRef.current = search; //guarda instancia para poder refrescar al borrar
+
         return () => {
             search.destroy();
+            searchInstanceRef.current = null;
             panelRootRef.current?.unmount();
             panelRootRef.current = null;
         };
