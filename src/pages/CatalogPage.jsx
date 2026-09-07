@@ -2,6 +2,7 @@ import { InstantSearch } from "react-instantsearch";
 import { useLocation } from "react-router-dom";
 import SearchBar from "../features/catalog/components/SearchBar";
 import ProductGrid from "../features/catalog/components/ProductGrid";
+import Pagination from "../features/catalog/components/Pagination";
 import Filters from "../features/catalog/components/Filters";
 import searchClient from "../features/catalog/services/algolia";
 import "../styles/CatalogPage.css";
@@ -37,6 +38,7 @@ function CatalogPage() {
                     <SearchBar />
 
                     <ProductGrid />
+                    <Pagination />
                 </div>
 
             </div>
