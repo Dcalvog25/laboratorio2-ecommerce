@@ -4,12 +4,34 @@ import "../styles/Pagination.css";
 export default function Pagination() {
     const { results } = useInstantSearch();
 
+    const handlePaginationClick = (event) => {
+        const link = event.target.closest("a");
+
+        if (!link || link.getAttribute("aria-disabled") === "true") {
+            return;
+        }
+        const catalog = document.querySelector(".catalog-page");
+
+        if (!catalog) {
+            return;
+        }
+        const headerOffset = 92;
+        const catalogTop = catalog.getBoundingClientRect().top + window.scrollY;
+
+        window.scrollTo({
+            top: Math.max(0, catalogTop - headerOffset),
+            behavior: "smooth",
+        });
+    };
     if (results?.__isArtificial || !results?.nbPages || results.nbPages <= 1) {
         return null;
     }
 
     return (
-        <nav className="catalog-pagination" aria-label="Paginación del catálogo">
+        <div
+            className="catalog-pagination"
+            onClick={handlePaginationClick}
+        >
             <InstantSearchPagination
                 padding={2}
                 showFirst
@@ -27,6 +49,6 @@ export default function Pagination() {
                     pageItemAriaLabel: ({ currentPage }) => `Ir a la página ${currentPage}`,
                 }}
             />
-        </nav>
+        </div>
     );
 }
