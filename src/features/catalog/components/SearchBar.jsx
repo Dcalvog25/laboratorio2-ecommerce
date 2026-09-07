@@ -110,7 +110,18 @@ export default function SearchBar() {
                                         </div>
                                         <div className="ctg-autocomplete-item-info">
                                           <strong>{item.title}</strong>
-                                          {item.model ? <p>[{item.model}] <span className="ctg-autocomplete-item-price">{item.currency != "CRC" ? "$" : "₡"}{item.b2c.sale_price}</span></p> : null}
+                                          {item.model ? 
+                                            <p>[{item.model}] 
+                                                <span className="ctg-autocomplete-item-price">
+                                                    {item.currency != "CRC" ? "$" : "₡"}{Number(item.b2c.sale_price).toLocaleString("en-US")}
+                                                </span>
+
+                                                {item.b2c.discount_percentage > 0 ? 
+                                                    <span className="ctg-autocomplete-item-regular-price">
+                                                        {item.currency != "CRC" ? "$" : "₡"}{Number(item.b2c.regular_price).toLocaleString("en-US")}
+                                                    </span> : null
+                                                }
+                                            </p> : null}
                                         </div>
                                     </div>
                                 );

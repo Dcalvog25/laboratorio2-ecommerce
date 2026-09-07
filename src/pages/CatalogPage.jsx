@@ -33,10 +33,6 @@ function CatalogPage() {
                 </div>
 
                 <div className="panel-der">
-                    <h1>Catálogo de Productos</h1>
-
-                    <SearchBar />
-
                     <ProductGrid />
                     <Pagination />
                 </div>
