@@ -11,3 +11,6 @@ Este proyecto consiste en crear una tienda de venta de productos de electrónica
 
 3. Manejo de Estados: Explicar brevemente qué sucede visualmente en la interfaz si una búsqueda no arroja ningún resultado (Empty State). 
 - Por último, cuando alguien hace una búsqueda o aplica filtros que no devuelven nada, la interfaz maneja un estado vacío (empty state) muy cuidado. En lugar de dejar la página rota o en blanco, el sistema oculta los productos y muestra un mensaje claro de que no hay resultados, acompañado de la ilustración de nuestro robot con una carita triste. Esto le da un toque humano y amigable a un momento que por lo general sería frustrante para el cliente.
+
+
+Enlace al Github Pages: https://dcalvog25.github.io/laboratorio2-ecommerce/#/search
