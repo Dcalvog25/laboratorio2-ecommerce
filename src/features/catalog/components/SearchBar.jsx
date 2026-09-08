@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useRef, createElement, Fragment } from "react";
-import { useNavigate } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import { autocomplete } from "@algolia/autocomplete-js";
 import { getAlgoliaResults } from "@algolia/autocomplete-preset-algolia";
@@ -14,7 +13,6 @@ export default function SearchBar() {
     const panelRootRef = useRef(null);
     const panelDomRef = useRef(null);
     const searchInstanceRef = useRef(null);
-    const navigate = useNavigate();
 
     const { query, refine } = useSearchBox();
 
@@ -124,13 +122,8 @@ export default function SearchBar() {
                             });
                         },
 
-                        onSelect({ item, setIsOpen }) {
-                            if (item.title) {
-                                navigate(`/producto/${item.objectID}`);
-                            }
-                            else {
-                                refineRef.current(query);
-                            }
+                        onSelect() {
+                            refineRef.current(query);
                             setIsOpen(false);
                         },
 
