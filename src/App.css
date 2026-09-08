@@ -2,8 +2,9 @@ main {
 	padding-top: 75px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     main {
         padding-top: 120px;
     }
 }
+
