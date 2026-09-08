@@ -55,10 +55,13 @@
 
 /* --- CONTENEDORES PRINCIPALES --- */
 .filters-container {
+    width: 100%;
+    min-width: 0;
     background-color: #ffffff;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-sizing: border-box;
 }
 
 .filters-title {
@@ -304,6 +307,8 @@
 
 .ais-RangeInput-input {
     width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 6px;
