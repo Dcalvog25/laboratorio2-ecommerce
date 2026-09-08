@@ -8,10 +8,10 @@ export default function Header() {
             <div className="header-container">
                 
                
-                <div className="header-brand">
+                <a href="#/search" className="header-brand">
                     <img src={robotLogo} alt="Electro-Commerce CR Logo" className="header-logo-img" />
                     <span className="header-title">Electro-Commerce CR</span>
-                </div>
+                </a>
 
                 
                 <div className="header-search-container">
